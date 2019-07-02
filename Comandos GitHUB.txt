@@ -8,3 +8,22 @@ GIT ADD *
 GIT COMMIT -M "*************"
 GIT STATUS
 GIT PUSH
+
+
+- Abrir
+- Novo
+- Salvar
+- Imprimir
+- Cortar
+- Colar
+- Copiar
+- Gravar bloco de texto
+- Inserir bloco de texto
+- Desfazer
+- Refazer
+- Localizar
+- Substituir
+- Corrigir indentação
+- Numerar Linhas
+- Mostrar variavéis modificadas
+- Restaurar tela inicial
