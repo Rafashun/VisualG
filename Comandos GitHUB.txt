@@ -1,0 +1,10 @@
+Comando GitHub CMD
+
+CD desktop
+CD VisualG
+
+GIT STATUS
+GIT ADD *
+GIT COMMIT -M "*************"
+GIT STATUS
+GIT PUSH
