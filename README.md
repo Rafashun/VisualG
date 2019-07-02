@@ -15,10 +15,10 @@ A tela do VisuAlg compõe-se da barra de tarefas, do editor de textos (que toma 
 
 ![im04](https://user-images.githubusercontent.com/52283861/60521669-09952780-9cbe-11e9-8df0-7677ba61165a.png)
 
-- Abrir
-- Novo
-- Salvar
-- Imprimir
++ Abrir
++ Novo
++ Salvar
++ Imprimir
 - Cortar
 - Colar
 - Copiar
