@@ -16,12 +16,15 @@ A tela do VisuAlg compõe-se da barra de tarefas, do editor de textos (que toma 
 ![im04](https://user-images.githubusercontent.com/52283861/60521669-09952780-9cbe-11e9-8df0-7677ba61165a.png)
 
 + Abrir
-Abre um arquivo anteriormente gravado, substituindo o texto presente no editor. Se este tiver sido modificado, o VisuAlg pedirá sua confirmação para salvá-lo antes que seja sobreposto.
+
+<P>Abre um arquivo anteriormente gravado, substituindo o texto presente no editor. Se este tiver sido modificado, o VisuAlg pedirá sua confirmação para salvá-lo antes que seja sobreposto.</P>
 
 + Novo
+
 Cria um novo "esqueleto" de pseudocódigo, substituindo o texto presente no editor. Se este tiver sido modificado, o VisuAlg pedirá sua confirmação para salvá-lo antes que seja sobreposto.
 
 + Salvar
+
 Grava imediatamente o texto presente no editor. Na primeira vez que um novo texto é gravado, o VisuAlg pede seu nome e localização.
 
 + Imprimir
