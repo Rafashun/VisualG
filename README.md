@@ -17,7 +17,7 @@ A tela do VisuAlg compõe-se da barra de tarefas, do editor de textos (que toma 
 
 **Abrir**
 
-*Abre um arquivo anteriormente gravado, substituindo o texto presente no editor. Se este tiver sido modificado, o VisuAlg pedirá sua confirmação para salvá-lo antes que seja sobreposto.*
+>Abre um arquivo anteriormente gravado, substituindo o texto presente no editor. Se este tiver sido modificado, o VisuAlg pedirá sua confirmação para salvá-lo antes que seja sobreposto.
 
 **Novo**
 
@@ -27,17 +27,50 @@ A tela do VisuAlg compõe-se da barra de tarefas, do editor de textos (que toma 
 
 *Grava imediatamente o texto presente no editor. Na primeira vez que um novo texto é gravado, o VisuAlg pede seu nome e localização.*
 
-+ Imprimir
-- Cortar
-- Colar
-- Copiar
-- Gravar bloco de texto
-- Inserir bloco de texto
-- Desfazer
-- Refazer
-- Localizar
-- Substituir
-- Corrigir indentação
+**Imprimir**
+
+ *Permite a impressão do algoritmo corrente, mostrando antes a janela de configuração de impressão (o correspondente botão da barra de tarefas imprime imediatamente o texto do pseudocódigo na impressora padrão).*
+
+**Cortar**
+
+* Apaga texto selecionado, armazenando-o em uma área de transferência.*
+
+**Colar**
+
+*Copia texto da área de transferência para o local em que está o cursor*
+
+**Copiar**
+
+* Copia o texto selecionado para a área de transferência.*
+
+**Gravar bloco de texto**
+
+*Permite a gravação em arquivo de um texto selecionado no editor. A extensão sugerida para o nome do arquivo é .inc.*
+
+**Inserir bloco de texto**
+
+*Permite a inserção do conteúdo de um arquivo. A extensão sugerida para o nome do arquivo é.inc.*
+
+**Desfazer**
+
+*Desfaz último comando efetuado*
+
+**Refazer**
+
+*Refaz último comando desfeito*
+
+**Localizar**
+
+*Localiza no texto presente no editor determinada palavra especificada*
+
+**Substituir**
+
+* Localiza no texto presente no editor determinada palavra especificada, substituindo-a por outra*
+
+**Corrigir indentação**
+
+* Corrige automaticamente a indentação (ou tabulação) do pseudocódigo, tabulando cada comando interno com espaços à esquerda.* 
+
 - Numerar Linhas
 - Mostrar variavéis modificadas
 - Restaurar tela inicial
