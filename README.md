@@ -15,61 +15,61 @@ A tela do VisuAlg compõe-se da barra de tarefas, do editor de textos (que toma 
 
 ![im04](https://user-images.githubusercontent.com/52283861/60521669-09952780-9cbe-11e9-8df0-7677ba61165a.png)
 
-**Abrir**
+-**Abrir**
 
 >Abre um arquivo anteriormente gravado, substituindo o texto presente no editor. Se este tiver sido modificado, o VisuAlg pedirá sua confirmação para salvá-lo antes que seja sobreposto.
 
 **Novo**
 
-*Cria um novo "esqueleto" de pseudocódigo, substituindo o texto presente no editor. Se este tiver sido modificado, o VisuAlg pedirá sua confirmação para salvá-lo antes que seja sobreposto.*
+>Cria um novo "esqueleto" de pseudocódigo, substituindo o texto presente no editor. Se este tiver sido modificado, o VisuAlg pedirá sua confirmação para salvá-lo antes que seja sobreposto.
 
 **Salvar**
 
-*Grava imediatamente o texto presente no editor. Na primeira vez que um novo texto é gravado, o VisuAlg pede seu nome e localização.*
+>Grava imediatamente o texto presente no editor. Na primeira vez que um novo texto é gravado, o VisuAlg pede seu nome e localização.
 
 **Imprimir**
 
- *Permite a impressão do algoritmo corrente, mostrando antes a janela de configuração de impressão (o correspondente botão da barra de tarefas imprime imediatamente o texto do pseudocódigo na impressora padrão).*
+ >Permite a impressão do algoritmo corrente, mostrando antes a janela de configuração de impressão (o correspondente botão da barra de tarefas imprime imediatamente o texto do pseudocódigo na impressora padrão).
 
 **Cortar**
 
-* Apaga texto selecionado, armazenando-o em uma área de transferência.*
+>Apaga texto selecionado, armazenando-o em uma área de transferência.
 
 **Colar**
 
-*Copia texto da área de transferência para o local em que está o cursor*
+>Copia texto da área de transferência para o local em que está o cursor
 
 **Copiar**
 
-* Copia o texto selecionado para a área de transferência.*
+>Copia o texto selecionado para a área de transferência.
 
 **Gravar bloco de texto**
 
-*Permite a gravação em arquivo de um texto selecionado no editor. A extensão sugerida para o nome do arquivo é .inc.*
+>Permite a gravação em arquivo de um texto selecionado no editor. A extensão sugerida para o nome do arquivo é .inc.
 
 **Inserir bloco de texto**
 
-*Permite a inserção do conteúdo de um arquivo. A extensão sugerida para o nome do arquivo é.inc.*
+>Permite a inserção do conteúdo de um arquivo. A extensão sugerida para o nome do arquivo é.inc.
 
 **Desfazer**
 
-*Desfaz último comando efetuado*
+>Desfaz último comando efetuado
 
 **Refazer**
 
-*Refaz último comando desfeito*
+>Refaz último comando desfeito
 
 **Localizar**
 
-*Localiza no texto presente no editor determinada palavra especificada*
+>Localiza no texto presente no editor determinada palavra especificada
 
 **Substituir**
 
-* Localiza no texto presente no editor determinada palavra especificada, substituindo-a por outra*
+>Localiza no texto presente no editor determinada palavra especificada, substituindo-a por outra
 
 **Corrigir indentação**
 
-* Corrige automaticamente a indentação (ou tabulação) do pseudocódigo, tabulando cada comando interno com espaços à esquerda.* 
+>Corrige automaticamente a indentação (ou tabulação) do pseudocódigo, tabulando cada comando interno com espaços à esquerda. 
 
 - Numerar Linhas
 - Mostrar variavéis modificadas
