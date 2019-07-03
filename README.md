@@ -17,7 +17,7 @@ A tela do VisuAlg compõe-se da barra de tarefas, do editor de textos (que toma 
 
 + Abrir
 
-<P>Abre um arquivo anteriormente gravado, substituindo o texto presente no editor. Se este tiver sido modificado, o VisuAlg pedirá sua confirmação para salvá-lo antes que seja sobreposto.</P>
+*Abre um arquivo anteriormente gravado, substituindo o texto presente no editor. Se este tiver sido modificado, o VisuAlg pedirá sua confirmação para salvá-lo antes que seja sobreposto.*
 
 + Novo
 
