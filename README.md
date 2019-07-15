@@ -129,7 +129,7 @@ imita o DOS, simulando a execução de um programa neste ambiente.
 > Possibilita acesso às páginas de ajuda e às informações sobre o VisuAlg
 
 
-##A Linguagem de Programação do VisuAlg
+## A Linguagem de Programação do VisuAlg
 
 A linguagem que o VisuAlg interpreta é bem simples: é uma versão portuguesa dos pseudocódigos largamente
 utilizados nos livros de introdução à programação, conhecida como "Portugol". Tomei a liberdade de acrescentar-lhe
@@ -149,6 +149,10 @@ sem acentos, cedilha, etc. Portanto, o tipo de dados lógico é definido como lo
 definido como se..entao..senao, e assim por diante. O VisuAlg também não distingue maiúsculas e minúsculas no
 reconhecimento de palavras-chave e nomes de variáveis.
 
+## Formato Básico do Pseudocódigo e Inclusão de Comentários
+
+O formato básico do nosso pseudocódigo é o seguinte:
+
 ```VisualG
 algoritmo "semnome"
 // Função :
@@ -158,6 +162,39 @@ algoritmo "semnome"
 inicio
 // Seção de Comandos
 fimalgoritmo
+```
+
+A primeira linha é composta pela palavra-chave algoritmo seguida do seu nome delimitado por aspas duplas. Este
+nome será usado como título nas janelas de leitura de dados (nas futuras versões do VisuAlg, talvez utilizemos este
+dado de outras formas). A seção que se segue é a de declaração de variáveis, que termina com a linha que contém a
+palavra-chave inicio. Deste ponto em diante está a seção de comandos, que continua até a linha em que se
+encontre a palavra-chave fimalgoritmo. Esta última linha marca o final do pseudocódigo: todo texto existente a
+partir dela é ignorado pelo interpretador.
+O VisuAlg permite a inclusão de comentários: qualquer texto precedido de "//" é ignorado, até se atingir o final da sua
+linha. Por este motivo, os comentários não se estendem por mais de uma linha: quando se deseja escrever
+comentários mais longos, que ocupem várias linhas, cada uma delas deverá começar por "//".
+
+## Tipos de Dados
+
+O VisuAlg prevê quatro tipos de dados: inteiro, real, cadeia de caracteres e lógico (ou booleano). As palavras-chave
+que os definem são as seguintes (observe que elas não têm acentuação):
+
+> • inteiro: define variáveis numéricas do tipo inteiro, ou seja, sem casas decimais.
+> • real: define variáveis numéricas do tipo real, ou seja, com casas decimais.
+> • caractere: define variáveis do tipo string, ou seja, cadeia de caracteres.
+> • logico: define variáveis do tipo booleano, ou seja, com valor VERDADEIRO ou FALSO.
+
+## Nomes de Variáveis e sua Declaração
+
+Os nomes das variáveis devem começar por uma letra e depois conter letras, números ou underline, até um limite de
+30 caracteres. As variáveis podem ser simples ou estruturadas (na versão atual, os vetores podem ser de uma ou duas
+dimensões). Não pode haver duas variáveis com o mesmo nome, com a natural exceção dos elementos de um mesmo
+vetor.
+A seção de declaração de variáveis começa com a palavra-chave var, e continua com as seguintes sintaxes:
+
+```VisualG
+<lista-de-variáveis> : <tipo-de-dado>
+<lista-de-variáveis> : vetor "["<lista-de-intervalos>"]" de <tipo-de-dado>
 ```
 
 
