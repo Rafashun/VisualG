@@ -202,12 +202,6 @@ A seção de declaração de variáveis começa com a palavra-chave var, e conti
 
 Na <lista-de-variáveis>, os nomes das variáveis estão separados por vírgulas. Na <lista-de-intervalos>,
 os <intervalo> são separados por vírgulas, e têm a seguinte sintaxe:
-Manual do VisuAlg Curso Técnico em Informática Prof. Arley Rodrigues
-www.portalgigaweb.com.br Página 7
-Instituto Federal de Educação, Ciência e Tecnologia
-<intervalo>: <valor-inicial> .. <valor-final>
-Na versão atual do VisuAlg, tanto <valor-inicial> como <valor-final> devem ser inteiros. Além disso, exige-se
-evidentemente que <valor-final> seja maior do que <valor-inicial>.
 
 ```VisuAlg
 Exemplos:
@@ -222,6 +216,35 @@ Note que não há a necessidade de ponto e vírgula após cada declaração: bas
 análoga à linguagem Pascal: a variável vet acima tem 10 elementos, com os índices de [1] a [10], enquanto matriz
 corresponde a 15 elementos com índices [0,8], [0,9], [0,10], [1,8], [1,9], [1,10], ... até [4,10]. O número total de variáveis
 suportado pelo VisuAlg é 500 (cada elemento de um vetor é contado individualmente)
+
+## Constantes e Comando de Atribuição
+
+O VisuAlg tem três tipos de constantes:
+
+```VisuAlg
+• Numéricos: são valores numéricos escritos na forma usual das linguagens de programação. Podem ser
+inteiros ou reais. Neste último caso, o separador de decimais é o ponto e não a vírgula, independente
+da configuração regional do computador onde o VisuAlg está sendo executado. O VisuAlg também não
+suporta separadores de milhares.
+• Caracteres: qualquer cadeia de caracteres delimitada por aspas duplas (").
+• Lógicos: admite os valores VERDADEIRO ou FALSO.
+```
+
+A atribuição de valores a variáveis é feita com o operador <-. Do seu lado esquerdo fica a variável à qual está sendo
+atribuído o valor, e à sua direita pode-se colocar qualquer expressão (constantes, variáveis, expressões numéricas),
+desde que seu resultado tenha tipo igual ao da variável.
+Alguns exemplos de atribuições, usando as variáveis declaradas acima:
+
+```VisuAlg
+a <- 3
+Valor1 <- 1.5
+Valor2 <- Valor1 + a
+vet[1] <- vet[1] + (a * 3)
+matriz[3,9] <- a/4 - 5
+nome_do_aluno <- "José da Silva"
+sinalizador <- FALSO
+```
+
 
 
 
