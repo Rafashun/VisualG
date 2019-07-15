@@ -179,10 +179,13 @@ comentários mais longos, que ocupem várias linhas, cada uma delas deverá come
 O VisuAlg prevê quatro tipos de dados: inteiro, real, cadeia de caracteres e lógico (ou booleano). As palavras-chave
 que os definem são as seguintes (observe que elas não têm acentuação):
 
-> • inteiro: define variáveis numéricas do tipo inteiro, ou seja, sem casas decimais.
-> • real: define variáveis numéricas do tipo real, ou seja, com casas decimais.
-> • caractere: define variáveis do tipo string, ou seja, cadeia de caracteres.
-> • logico: define variáveis do tipo booleano, ou seja, com valor VERDADEIRO ou FALSO.
+
+```VisuAlg
+• inteiro: define variáveis numéricas do tipo inteiro, ou seja, sem casas decimais.
+• real: define variáveis numéricas do tipo real, ou seja, com casas decimais.
+• caractere: define variáveis do tipo string, ou seja, cadeia de caracteres.
+• logico: define variáveis do tipo booleano, ou seja, com valor VERDADEIRO ou FALSO.
+```
 
 ## Nomes de Variáveis e sua Declaração
 
@@ -196,6 +199,30 @@ A seção de declaração de variáveis começa com a palavra-chave var, e conti
 <lista-de-variáveis> : <tipo-de-dado>
 <lista-de-variáveis> : vetor "["<lista-de-intervalos>"]" de <tipo-de-dado>
 ```
+
+Na <lista-de-variáveis>, os nomes das variáveis estão separados por vírgulas. Na <lista-de-intervalos>,
+os <intervalo> são separados por vírgulas, e têm a seguinte sintaxe:
+Manual do VisuAlg Curso Técnico em Informática Prof. Arley Rodrigues
+www.portalgigaweb.com.br Página 7
+Instituto Federal de Educação, Ciência e Tecnologia
+<intervalo>: <valor-inicial> .. <valor-final>
+Na versão atual do VisuAlg, tanto <valor-inicial> como <valor-final> devem ser inteiros. Além disso, exige-se
+evidentemente que <valor-final> seja maior do que <valor-inicial>.
+
+```VisuAlg
+Exemplos:
+var a: inteiro
+ Valor1, Valor2: real
+ vet: vetor [1..10] de real
+ matriz: vetor [0..4,8..10] de inteiro
+ nome_do_aluno: caractere
+ sinalizador: logico
+ ```
+Note que não há a necessidade de ponto e vírgula após cada declaração: basta pular linha. A declaração de vetores é
+análoga à linguagem Pascal: a variável vet acima tem 10 elementos, com os índices de [1] a [10], enquanto matriz
+corresponde a 15 elementos com índices [0,8], [0,9], [0,10], [1,8], [1,9], [1,10], ... até [4,10]. O número total de variáveis
+suportado pelo VisuAlg é 500 (cada elemento de um vetor é contado individualmente)
+
 
 
 
