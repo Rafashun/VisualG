@@ -245,6 +245,10 @@ nome_do_aluno <- "José da Silva"
 sinalizador <- FALSO
 ```
 
+## Operadores Aritméticos
+
+
+
 
 
 
